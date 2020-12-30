@@ -4,7 +4,7 @@ package entities;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.Set;
+
 
 @Entity
 @Setter
@@ -24,8 +24,8 @@ public class Team {
     @OneToOne(targetEntity = Coach.class)
     private Coach coach;
 
-    @OneToMany(mappedBy = "Team")
-    private Set<Player> playersList;
+//    @OneToMany(mappedBy = "Team")
+//    private Set<Player> playersList;
 
     @ManyToOne
     private City city;

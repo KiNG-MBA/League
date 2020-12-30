@@ -23,7 +23,7 @@ public class City {
     @OneToMany(mappedBy = "city")
     private Set<Stadium> stadiumList;
 
-    @OneToMany(mappedBy = "team")
+    @OneToMany(mappedBy = "city")
     private Set<Team> teamList;
 
 }

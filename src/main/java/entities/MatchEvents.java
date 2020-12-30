@@ -11,7 +11,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@Table(name = "match")
+
 public class MatchEvents {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

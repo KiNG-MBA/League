@@ -19,8 +19,8 @@ public class Contract {
     private Integer season;
 
     @ManyToOne
-    @JoinColumn(name ="Person_ID")
-    private Person person;
+    @JoinColumn(name ="coach_ID")
+    private Coach coach;
 
     private Double salary;
 
