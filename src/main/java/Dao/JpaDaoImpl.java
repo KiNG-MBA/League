@@ -2,7 +2,7 @@ package Dao;
 
 import javax.persistence.EntityManager;
 
-public abstract class JpaDaoImpl<E,I> {
+public abstract class JpaDaoImpl<E, I> {
     private EntityManager entityManager;
 
     public JpaDaoImpl(EntityManager entityManager) {
@@ -23,7 +23,7 @@ public abstract class JpaDaoImpl<E,I> {
 
 
     public E loadById(I id) {
-        return entityManager.find(getEntityClass(),id);
+        return entityManager.find(getEntityClass(), id);
     }
 
     protected abstract Class<E> getEntityClass();

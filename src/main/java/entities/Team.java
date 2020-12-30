@@ -34,8 +34,6 @@ public class Team {
     private Stadium stadium;
 
 
-
-
     public Integer getID() {
         return ID;
     }

@@ -10,7 +10,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 
-
 public class App {
 
     private static CityDao cityDao;

@@ -35,5 +35,4 @@ public class MatchEvents {
     private Stadium stadium;
 
 
-
 }
